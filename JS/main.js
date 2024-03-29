@@ -1,4 +1,4 @@
-
+// =====================SWIPER-SLIDER=======================
 new Swiper('.swiper', {
     pagination: {
         el: '.swiper-pagination',
@@ -39,6 +39,11 @@ new Swiper('.swiper', {
         },
     }
 });
+// =====================SWIPER-SLIDER-end=======================
+
+
+
+
 
 // =========================FLAG-MENU===============================
 
