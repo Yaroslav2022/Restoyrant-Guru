@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="color-scheme" content="light">
     <title>Restorant Guru</title>
     <link rel="stylesheet" href="CSS/fonts.css">
     <link rel="stylesheet" href="CSS/reset.css">
@@ -13,9 +12,8 @@
 </head>
 
 <body>
-    <div class="wrapper" style="background-color: F6F6F6 !important;">
-        <header class="header" style="background-color: #fff !important;
-">
+    <div class="wrapper">
+        <header class="header">
             <div class="container">
                 <div class="header-wrapper">
                     <a href="#" class="header-logo">
@@ -43,24 +41,30 @@
                             </form>
                         </div>
                         <div class="header-language">
-                            <img class="language-selection_flag-rus" src="images/rus.svg" alt="language">
+                            <img class="language-selection_flag-icon language-selection_flag-rus activeBtn"
+                                src="images/rus.svg" alt="language">
+                            <img class="language-selection_flag-icon language-selection_flag-usa language-selection_flag--disabled activeBtn"
+                                src="images/en.svg" alt="language">
+                            <img class="language-selection_flag-icon language-selection_flag-espanol language-selection_flag--disabled activeBtn"
+                                src="images/es.svg" alt="language">
                             <div class="language-menu language-menu--disabled">
                                 <span class="close-language">
                                 </span>
                                 <div class="language-selection-wrapper">
-                                    <div class="language-selection">
+                                    <div class="language-selection" id="language-selection-en">
                                         <img class="language-selection_flag language-selection_flag-en"
                                             src="images/en.svg" alt="flag-USA">
                                         <span class="language-selection_country">English</span>
                                     </div>
-                                    <div class="language-selection">
+                                    <div class="language-selection" id="language-selection-es">
                                         <img class="language-selection_flag language-selection_flag-es"
                                             src="images/es.svg" alt="flag-Espanol">
                                         <span class="language-selection_country">Espanol</span>
                                     </div>
-                                    <div class="language-selection language-selection--disabled ">
+                                    <div class="language-selection language-selection--disabled "
+                                        id="language-selection-rus">
                                         <img class="language-selection_flag language-selection_flag-rus"
-                                            src="images/rus.png" alt="flag-Russia">
+                                            src="images/rus.svg" alt="flag-Russia">
                                         <span class="language-selection_country">Русский</span>
                                     </div>
                                 </div>

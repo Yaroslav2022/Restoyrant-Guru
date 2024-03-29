@@ -204,6 +204,33 @@
     display: none;
 }
 
+.language-selection_flag--disabled {
+    display: none;
+}
+
+.language-selection_flag-icon {
+    width: 23px;
+    cursor: pointer;
+    height: 20px;
+}
+
+.language-selection:hover {
+    background-color: rgb(232, 232, 232);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.language-selection:active {
+    background-color: rgb(218, 218, 218);
+
+}
+
+#language-selection-en {}
+
+
 /* ==============================BREADCRUMBS============================= */
 
 
