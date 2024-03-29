@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restorant Guru</title>
+    <link rel="stylesheet" href="/CSS/fonts.css">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header-wrapper">
+                    <a href="#" class="header-logo">
+                        <img src="/img/logo.svg" alt="Restorant Guru">
+                    </a>
+                    <a href="#" class="header-logo-mobile">
+                        <img src="/img/logo-mobile.svg" alt="Restorant Guru">
+                    </a>
+                    <div class="header-right">
+                        <div class="header-search">
+                            <form class="form-search" method="get">
+                                <div class="search-plase">
+                                    <span class="search-placeholder">Найти:</span>
+                                    <input maxlength=10 class="input-search" type="search" name="plase"
+                                        placeholder="Рестораны">
+                                </div>
+                                <div class="search-location">
+                                    <span class="search-placeholder">Где:</span>
+                                    <input maxlength=10 class="input-search" type="search" name="location"
+                                        placeholder="Москва">
+
+                                </div>
+                                <button class="search-btn" type="submit"><img src="./img/search.svg"
+                                        alt="search"></button>
+                            </form>
+                        </div>
+                        <div class="header-language">
+                            <img class="language-selection_flag-rus" src="/img/rus.png" alt="language">
+                            <div class="language-menu language-menu--disabled">
+                                <span class="close-language">
+                                </span>
+                                <div class="language-selection-wrapper">
+                                    <div class="language-selection">
+                                        <img class="language-selection_flag language-selection_flag-en"
+                                            src="/img/en.svg" alt="flag-USA">
+                                        <span class="language-selection_country">English</span>
+                                    </div>
+                                    <div class="language-selection">
+                                        <img class="language-selection_flag language-selection_flag-es"
+                                            src="/img/es.svg" alt="flag-Espanol">
+                                        <span class="language-selection_country">Espanol</span>
+                                    </div>
+                                    <div class="language-selection language-selection--disabled ">
+                                        <img class="language-selection_flag language-selection_flag-rus"
+                                            src="/img/rus.png" alt="flag-Russia">
+                                        <span class="language-selection_country">Русский</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="breadcrumbs">
+            <div class="container">
+                <nav aria-label="Breadcrumb" class="breadcrumb">
+                    <ul>
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">Россия</a></li>
+                        <li><a href="#">Москва</a></li>
+                        <li><span aria-current="page">Рестораны</span></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <main class="main">
+            <div class="container">
+                <section class="restorant">
+                    <div class="restotant-top">
+                        <h1 class="restorant-title">
+                            Рестораны Москвы
+                        </h1>
+                        <a class="restorant-more" href="#">
+                            Все рестораны
+                        </a>
+                    </div>
+                    <div class="restorant-carousel">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="restaurant-cart">
+                                        <div class="cart-img">
+                                            <img class="cart-photo-img" src="./img/fon-cart.png" alt="restorant">
+                                            <div class="open-time">Открыто до <span class="time">00:00</span></div>
+                                        </div>
+                                        <div class="cart-info-top">
+                                            <p class="cart-info__title">Апшерон</p>
+                                            <div class="cart-info__rating">
+                                                <img src="/img/family_star.svg" alt="rating-star">
+                                                <span class="cart-info__rating-estimation">4.2</span>
+                                                <span class="cart-info__rating-feedback">(842)</span>
+                                            </div>
+                                        </div>
+                                        <div class="cart-info-bottom">
+                                            <div class="cart-info-bottom-left">
+                                                <span class="cart-info_location">#4 ресторан в г. Подольск</span>
+                                                <div class="cart-info_cuisine-wrapper">
+                                                    <img class="cart-info_cuisine-img" src="/img/restaurant_menu.svg"
+                                                        alt="icon">
+                                                    <span class="cart-info_cuisine">Европейская, Итальянская</span>
+                                                </div>
+                                                <div class="cart-info_price-wrapper">
+                                                    <img src="/img/price.svg" alt="ruble" class="cart-info_price-ruble">
+                                                    <img src="/img/separator-prise.png" alt="separator"
+                                                        class="cart-info_price-separator">
+                                                    <img src="/img/receipt_long.svg" alt="recept"
+                                                        class="cart-info_recept">
+                                                    <span class="cart-info_average-check">Средний чек: 1200₽</span>
+                                                </div>
+                                            </div>
+                                            <div class="cart-info-bottom-right">
+                                                <div class="cart-info_time">
+                                                    <img class="cart-info_car-img" src="/img/directions_car.svg"
+                                                        alt="car">
+                                                    <span class="cart-info_time-in-path">12 мин</span>
+                                                </div>
+                                                <div class="cart-info_distance">6,2 км</div>
+                                                <img src="/img/price.svg" alt="ruble"
+                                                    class="cart-info_price-ruble-mobile">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="restaurant-cart">
+                                        <div class="cart-img">
+                                            <img class="cart-photo-img" src="./img/fon-cart.png" alt="restorant">
+                                            <div class="open-time">Открыто до <span class="time">00:00</span></div>
+                                        </div>
+                                        <div class="cart-info-top">
+                                            <p class="cart-info__title">Апшерон</p>
+                                            <div class="cart-info__rating">
+                                                <img src="/img/family_star.svg" alt="rating-star">
+                                                <span class="cart-info__rating-estimation">4.2</span>
+                                                <span class="cart-info__rating-feedback">(842)</span>
+                                            </div>
+                                        </div>
+                                        <div class="cart-info-bottom">
+                                            <div class="cart-info-bottom-left">
+                                                <span class="cart-info_location">#4 ресторан в г. Подольск</span>
+                                                <div class="cart-info_cuisine-wrapper">
+                                                    <img class="cart-info_cuisine-img" src="/img/restaurant_menu.svg"
+                                                        alt="icon">
+                                                    <span class="cart-info_cuisine">Европейская, Итальянская</span>
+                                                </div>
+                                                <div class="cart-info_price-wrapper">
+                                                    <img src="/img/price.svg" alt="ruble" class="cart-info_price-ruble">
+                                                    <img src="/img/separator-prise.png" alt="separator"
+                                                        class="cart-info_price-separator">
+                                                    <img src="/img/receipt_long.svg" alt="recept"
+                                                        class="cart-info_recept">
+                                                    <span class="cart-info_average-check">Средний чек: 1200₽</span>
+                                                </div>
+                                            </div>
+                                            <div class="cart-info-bottom-right">
+                                                <div class="cart-info_time">
+                                                    <img class="cart-info_car-img" src="/img/directions_car.svg"
+                                                        alt="car">
+                                                    <span class="cart-info_time-in-path">12 мин</span>
+                                                </div>
+                                                <div class="cart-info_distance">6,2 км</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="restaurant-cart">
+                                        <div class="cart-img">
+                                            <img class="cart-photo-img" src="./img/fon-cart.png" alt="restorant">
+                                            <div class="open-time">Открыто до <span class="time">00:00</span></div>
+                                        </div>
+                                        <div class="cart-info-top">
+                                            <p class="cart-info__title">Апшерон</p>
+                                            <div class="cart-info__rating">
+                                                <img src="/img/family_star.svg" alt="rating-star">
+                                                <span class="cart-info__rating-estimation">4.2</span>
+                                                <span class="cart-info__rating-feedback">(842)</span>
+                                            </div>
+                                        </div>
+                                        <div class="cart-info-bottom">
+                                            <div class="cart-info-bottom-left">
+                                                <span class="cart-info_location">#4 ресторан в г. Подольск</span>
+                                                <div class="cart-info_cuisine-wrapper">
+                                                    <img class="cart-info_cuisine-img" src="/img/restaurant_menu.svg"
+                                                        alt="icon">
+                                                    <span class="cart-info_cuisine">Европейская, Итальянская</span>
+                                                </div>
+                                                <div class="cart-info_price-wrapper">
+                                                    <img src="/img/price.svg" alt="ruble" class="cart-info_price-ruble">
+                                                    <img src="/img/separator-prise.png" alt="separator"
+                                                        class="cart-info_price-separator">
+                                                    <img src="/img/receipt_long.svg" alt="recept"
+                                                        class="cart-info_recept">
+                                                    <span class="cart-info_average-check">Средний чек: 1200₽</span>
+                                                </div>
+                                            </div>
+                                            <div class="cart-info-bottom-right">
+                                                <div class="cart-info_time">
+                                                    <img class="cart-info_car-img" src="/img/directions_car.svg"
+                                                        alt="car">
+                                                    <span class="cart-info_time-in-path">12 мин</span>
+                                                </div>
+                                                <div class="cart-info_distance">6,2 км</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="restaurant-cart">
+                                        <div class="cart-img">
+                                            <img class="cart-photo-img" src="./img/fon-cart.png" alt="restorant">
+                                            <div class="open-time">Открыто до <span class="time">00:00</span></div>
+                                        </div>
+                                        <div class="cart-info-top">
+                                            <p class="cart-info__title">Апшерон</p>
+                                            <div class="cart-info__rating">
+                                                <img src="/img/family_star.svg" alt="rating-star">
+                                                <span class="cart-info__rating-estimation">4.2</span>
+                                                <span class="cart-info__rating-feedback">(842)</span>
+                                            </div>
+                                        </div>
+                                        <div class="cart-info-bottom">
+                                            <div class="cart-info-bottom-left">
+                                                <span class="cart-info_location">#4 ресторан в г. Подольск</span>
+                                                <div class="cart-info_cuisine-wrapper">
+                                                    <img class="cart-info_cuisine-img" src="/img/restaurant_menu.svg"
+                                                        alt="icon">
+                                                    <span class="cart-info_cuisine">Европейская, Итальянская</span>
+                                                </div>
+                                                <div class="cart-info_price-wrapper">
+                                                    <img src="/img/price.svg" alt="ruble" class="cart-info_price-ruble">
+                                                    <img src="/img/separator-prise.png" alt="separator"
+                                                        class="cart-info_price-separator">
+                                                    <img src="/img/receipt_long.svg" alt="recept"
+                                                        class="cart-info_recept">
+                                                    <span class="cart-info_average-check">Средний чек: 1200₽</span>
+                                                </div>
+                                            </div>
+                                            <div class="cart-info-bottom-right">
+                                                <div class="cart-info_time">
+                                                    <img class="cart-info_car-img" src="/img/directions_car.svg"
+                                                        alt="car">
+                                                    <span class="cart-info_time-in-path">12 мин</span>
+                                                </div>
+                                                <div class="cart-info_distance">6,2 км</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="restaurant-cart">
+                                        <div class="cart-img">
+                                            <img class="cart-photo-img" src="./img/fon-cart.png" alt="restorant">
+                                            <div class="open-time">Открыто до <span class="time">00:00</span></div>
+                                        </div>
+                                        <div class="cart-info-top">
+                                            <p class="cart-info__title">Апшерон</p>
+                                            <div class="cart-info__rating">
+                                                <img src="/img/family_star.svg" alt="rating-star">
+                                                <span class="cart-info__rating-estimation">4.2</span>
+                                                <span class="cart-info__rating-feedback">(842)</span>
+                                            </div>
+                                        </div>
+                                        <div class="cart-info-bottom">
+                                            <div class="cart-info-bottom-left">
+                                                <span class="cart-info_location">#4 ресторан в г. Подольск</span>
+                                                <div class="cart-info_cuisine-wrapper">
+                                                    <img class="cart-info_cuisine-img" src="/img/restaurant_menu.svg"
+                                                        alt="icon">
+                                                    <span class="cart-info_cuisine">Европейская, Итальянская</span>
+                                                </div>
+                                                <div class="cart-info_price-wrapper">
+                                                    <img src="/img/price.svg" alt="ruble" class="cart-info_price-ruble">
+                                                    <img src="/img/separator-prise.png" alt="separator"
+                                                        class="cart-info_price-separator">
+                                                    <img src="/img/receipt_long.svg" alt="recept"
+                                                        class="cart-info_recept">
+                                                    <span class="cart-info_average-check">Средний чек: 1200₽</span>
+                                                </div>
+                                            </div>
+                                            <div class="cart-info-bottom-right">
+                                                <div class="cart-info_time">
+                                                    <img class="cart-info_car-img" src="/img/directions_car.svg"
+                                                        alt="car">
+                                                    <span class="cart-info_time-in-path">12 мин</span>
+                                                </div>
+                                                <div class="cart-info_distance">6,2 км</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="restaurant-cart">
+                                        <div class="cart-img">
+                                            <img class="cart-photo-img" src="./img/fon-cart.png" alt="restorant">
+                                            <div class="open-time">Открыто до <span class="time">00:00</span></div>
+                                        </div>
+                                        <div class="cart-info-top">
+                                            <p class="cart-info__title">Апшерон</p>
+                                            <div class="cart-info__rating">
+                                                <img src="/img/family_star.svg" alt="rating-star">
+                                                <span class="cart-info__rating-estimation">4.2</span>
+                                                <span class="cart-info__rating-feedback">(842)</span>
+                                            </div>
+                                        </div>
+                                        <div class="cart-info-bottom">
+                                            <div class="cart-info-bottom-left">
+                                                <span class="cart-info_location">#4 ресторан в г. Подольск</span>
+                                                <div class="cart-info_cuisine-wrapper">
+                                                    <img class="cart-info_cuisine-img" src="/img/restaurant_menu.svg"
+                                                        alt="icon">
+                                                    <span class="cart-info_cuisine">Европейская, Итальянская</span>
+                                                </div>
+                                                <div class="cart-info_price-wrapper">
+                                                    <img src="/img/price.svg" alt="ruble" class="cart-info_price-ruble">
+                                                    <img src="/img/separator-prise.png" alt="separator"
+                                                        class="cart-info_price-separator">
+                                                    <img src="/img/receipt_long.svg" alt="recept"
+                                                        class="cart-info_recept">
+                                                    <span class="cart-info_average-check">Средний чек: 1200₽</span>
+                                                </div>
+                                            </div>
+                                            <div class="cart-info-bottom-right">
+                                                <div class="cart-info_time">
+                                                    <img class="cart-info_car-img" src="/img/directions_car.svg"
+                                                        alt="car">
+                                                    <span class="cart-info_time-in-path">12 мин</span>
+                                                </div>
+                                                <div class="cart-info_distance">6,2 км</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="swiper-arrow-wrapper">
+                        <a class="swiper-arrow swiper-button-prev swiper-arrow-prev">
+                        </a>
+                        <a class="swiper-arrow swiper-button-next swiper-arrow-next">
+                        </a>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="JS/main.js"></script>
+
+</body>
+
+</html>
