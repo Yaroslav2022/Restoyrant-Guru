@@ -4,7 +4,6 @@
     min-height: 100vh;
     margin: 0 auto;
     background-color: #F6F6F6 !important;
-    overflow: hidden;
 }
 
 .container {
@@ -258,6 +257,10 @@
 
 }
 
+.restorant {
+    margin-bottom: 200px;
+}
+
 .restotant-top {
     display: flex;
     align-items: center;
@@ -285,6 +288,7 @@
 }
 
 
+
 /* =============================SLIADER=========================== */
 
 :root {
@@ -306,6 +310,7 @@
 
 .swiper-slide {
     width: 100%;
+    cursor: pointer;
 }
 
 .swiper-button-prev::after,
@@ -323,23 +328,27 @@
 
 
 .swiper-arrow-prev {
-    background-image: url(/images/Button-Next-slide.svg);
+    display: block !important;
+    background-image: url(../images/Button-Next-slide.svg);
     transform: rotate(180deg);
     left: -20px !important;
 }
 
 .swiper-arrow-prev:hover {
-    background-image: url(/images/Button-Next-hover-left.svg);
+    background-image: url(../images/Button-Next-hover-left.svg);
+    display: block !important;
     transform: none;
 }
 
 .swiper-arrow-next {
-    background-image: url(/images/Button-Next-slide.svg);
+    background-image: url(../images/Button-Next-slide.svg);
+    display: block !important;
     right: -20px !important;
 }
 
 .swiper-arrow-next:hover {
-    background-image: url(/images/Button-Next-hover-left.svg);
+    background-image: url(../images/Button-Next-hover-left.svg);
+    display: block !important;
     transform: rotate(180deg);
 
 }
@@ -423,6 +432,10 @@
     color: #AB9C9E;
     font-weight: 700;
     line-height: 14px;
+}
+
+.cart-info__rating-feedback:hover {
+    color: #808080;
 }
 
 .cart-info-bottom {
@@ -598,6 +611,9 @@
         display: none;
     }
 
+    .cart-info_price-ruble-mobile {
+        display: block;
+    }
 
     .cart-info-bottom-left {
         display: flex;
