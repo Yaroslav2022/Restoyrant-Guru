@@ -59,7 +59,7 @@
 
 .search-plase::after {
     content: '';
-    background-image: url(../img/separator.png);
+    background-image: url(../images/separator.png);
     width: 1px;
     height: 28px;
     position: absolute;
@@ -323,23 +323,23 @@
 
 
 .swiper-arrow-prev {
-    background-image: url(/img/Button-Next-slide.svg);
+    background-image: url(/images/Button-Next-slide.svg);
     transform: rotate(180deg);
     left: -20px !important;
 }
 
 .swiper-arrow-prev:hover {
-    background-image: url(/img/Button-Next-hover-left.svg);
+    background-image: url(/images/Button-Next-hover-left.svg);
     transform: none;
 }
 
 .swiper-arrow-next {
-    background-image: url(/img/Button-Next-slide.svg);
+    background-image: url(/images/Button-Next-slide.svg);
     right: -20px !important;
 }
 
 .swiper-arrow-next:hover {
-    background-image: url(/img/Button-Next-hover-left.svg);
+    background-image: url(/images/Button-Next-hover-left.svg);
     transform: rotate(180deg);
 
 }
