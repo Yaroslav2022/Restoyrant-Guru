@@ -228,7 +228,9 @@
 
 }
 
-#language-selection-en {}
+.language-selection_flag {
+    width: 25px;
+}
 
 
 /* ==============================BREADCRUMBS============================= */
